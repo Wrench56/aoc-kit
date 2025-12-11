@@ -1,0 +1,6 @@
+# Ignore artifacts from get.sh
+input.txt
+session.txt
+
+# Ignore commitlint executable
+tools/commitlint*

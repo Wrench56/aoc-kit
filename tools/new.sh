@@ -2,7 +2,8 @@
 
 set -e
 
-TEMPLATE_ROOT=${TEMPLATE_ROOT:-templates}
+SCRIPT_DIR=$(cd "$(dirname "$0")" && pwd)
+TEMPLATE_ROOT=${TEMPLATE_ROOT:-"$SCRIPT_DIR/../templates"}
 
 YEAR=$(date "+%Y")
 DAY=$(date "+%d")

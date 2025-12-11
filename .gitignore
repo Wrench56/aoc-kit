@@ -4,3 +4,6 @@ session.txt
 
 # Ignore commitlint executable
 tools/commitlint*
+
+# Ignore ccls cache
+.ccls-cache/

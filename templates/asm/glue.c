@@ -17,7 +17,7 @@ int __attribute__((naked)) main(int argc, char** argv) {
 
 #if defined(_WIN32) || defined(_WIN64)
     __asm__ volatile(
-        "add $40, %rsp\n"
+        "add $32, %rsp\n"
     );
 #endif
 

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -xe
+set -e
 
 SESSION_FILE="session.txt"
 SESSION=""

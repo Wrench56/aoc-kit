@@ -9,10 +9,7 @@ int __attribute__((naked)) main(int argc, char** argv) {
     );
 #endif
    __asm__ volatile(
-        "lea cleanup(%rip), %rax\n"
-        "push %rax\n"
-        "jmp entry\n"
-        "cleanup:"
+        "call entry"
     );
 
 #if defined(_WIN32) || defined(_WIN64)

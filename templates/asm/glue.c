@@ -1,5 +1,3 @@
-#include <stdint.h>
-
 extern __attribute__((sysv_abi)) int entry(int argc, char** argv);
 
 int __attribute__((naked)) main(int argc, char** argv) {

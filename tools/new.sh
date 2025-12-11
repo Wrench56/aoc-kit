@@ -6,7 +6,7 @@ TEMPLATE_ROOT=${TEMPLATE_ROOT:-templates}
 
 YEAR=$(date "+%Y")
 DAY=$(date "+%d")
-TEMPLATE=""
+TEMPLATE="asm"
 
 usage() {
     echo "Usage: $0 [-y year] [-d day] [-t template]" >&2

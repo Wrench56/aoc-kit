@@ -151,7 +151,7 @@ if [ -n "$tpl_dir" ]; then
         exit 5
     fi
     echo "[*] Copying template from: $tpl_dir"
-    cp -R "$tpl_dir"/. "$day_dir"/
+    cp -R "$tpl_dir" "$day_dir"/
 else
     echo "[*] No template specified and no default template found."
 fi

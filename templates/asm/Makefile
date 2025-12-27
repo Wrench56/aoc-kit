@@ -13,7 +13,7 @@ C_OBJS   := $(C_SRCS:%.c=$(BUILD)/%.o)
 ASM_OBJS := $(ASM_SRCS:%.asm=$(BUILD)/%.o)
 OBJS     := $(C_OBJS) $(ASM_OBJS)
 
-INPUT    := input.txt
+INPUT    := ../input.txt
 
 .PHONY: all run clean dirs
 
